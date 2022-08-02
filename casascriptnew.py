@@ -148,12 +148,12 @@ o=cal.calibration(msfilename,doinitcal,myampcals,flagspw,mypcals,myampcals,ref_a
 
 ##############################################################################################
 q=split.split(msfilename,mytargets,workdir,dosplit,gainspw2,flagsplitfile)
-########################################
+###############################################################Check manually for ripples and remove antennas with ripples##################
 ######################### Continuum imaging for self calibration ##################################################
 r=splat.splat(dosplitavg,msfilename,mytargets,workdir,flagspw,chanavg,doflagavg,cliptarget)
 
 file,gt,im=image.image(msfilename,mytargets,workdir,gainspw2,makedirty,doselfcal,usetclean,mJythreshold,imcellsize,imsize_pix,use_nterms,nwprojpl,ref_ant,scaloops,pcaloops,scalsolints,clipresid,niter_start,chanavg,uvrascal,z,flagspw)
-#######################Check manually for ripples and remove antennas with ripples##################
+
 ######################### Spectral line imaging ###############################################
 if (dospectralcube==True):
     spfitspw='0:101~480'

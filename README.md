@@ -1,7 +1,7 @@
 # Spectral-CAPTURE
 This pipeline is adapted for spectral line data reduction from the CAPTURE continuum data reduction pipeline for uGMRT (https://github.com/ruta-k/uGMRT-pipeline) developed by Ruta Kale and Ishwar Chandra.
-This pipeline is based on modular CASA 6 package which can be installed in a virtual python environment. 
-The method is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages.
+This pipeline is based on modular CASA 6 package which can be installed in a virtual python environment. Using modular CASA 6 makes this pipeline more flexible than original CAPTURE pipeline.
+The method to install modular CASA is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages.
 A short description of steps for installing modular CASA 6 packages as below.
 
 

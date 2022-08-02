@@ -11,14 +11,14 @@ import os
 import logging
 from datetime import datetime
 import configparser
-import  modules.inputdata as inp
-import  modules.beforecalflag as bcflg
-import  modules.aftercalflag as acflg
-import  modules.calibration as cal
-import  modules.split as split
-import  modules.splat as splat
-import  modules.image as image
-import  modules.ugfunctions as ugf
+import  inputdata as inp
+import  beforecalflag as bcflg
+import  aftercalflag as acflg
+import  calibration as cal
+import  split as split
+import  splat as splat
+import  image as image
+import  ugfunctions as ugf
 import  numpy as np
 
 logfile_name = datetime.now().strftime('capture_%H_%M_%S_%d_%m_%Y.log')

@@ -1,9 +1,8 @@
-# mCAPTURE
-modified CAPTURE pipeline for GMRT data reduction
-This pipeline is adapted from the CAPTURE data reduction pipeline for GMRT https://github.com/ruta-k/uGMRT-pipeline.
-This pipeline is based on modular CASA package which can be installed in a virtual python environment for 
-which the method is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages
-We give a short description of installing modular CASA packages as below.
+# Spectral-CAPTURE
+This pipeline is adapted from the CAPTURE data reduction pipeline for GMRT https://github.com/ruta-k/uGMRT-pipeline for spectral line analysis.
+This pipeline is based on modular CASA package which can be installed in a virtual python environment. 
+The method is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages.
+A short description of installing modular CASA packages as below.
 
 Pip wheels for casatools and casatasks are available as Python 3 modules. This allows simple installation and import into standard Python environments. The casatools wheel is necessarily a binary wheel so there may be some compatibility issues for some time as we work toward making wheels available for important Python configurations.
 

@@ -36,7 +36,7 @@ logging.info("CASA_LOGFILE = %s", 'casa-'+logfile_name)
 logging.info("#################################################################################")
 
 config = configparser.ConfigParser() 
-config.read('config_capture_34_023_S20.ini')
+config.read('config_example.ini')
 
 fromlta = config.getboolean('basic', 'fromlta')
 fromfits = config.getboolean('basic', 'fromfits')

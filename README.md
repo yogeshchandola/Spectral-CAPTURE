@@ -1,6 +1,6 @@
 # mCAPTURE
 modified CAPTURE pipeline for GMRT data reduction
-This pipeline is adapted from the CAPTURE data reduction pipeline for GMRT.
+This pipeline is adapted from the CAPTURE data reduction pipeline for GMRT https://github.com/ruta-k/uGMRT-pipeline.
 This pipeline is based on modular CASA package which can be installed in a virtual python environment for 
 which the method is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages
 We give a short description of installing modular CASA packages as below.
@@ -31,6 +31,6 @@ After the virtual environment is created, it can be activated in the command lin
 
 source myenv/bin/activate
 
-After the casa6 environment is activated, you can run the file 
+After the casa6 environment is activated, the script casascriptnew.py can be run on python. Before running the script, appropriate parameters should be set using the parameter file.
 
 

@@ -2,11 +2,8 @@
 This pipeline is adapted for spectral line data reduction from the CAPTURE data reduction pipeline for uGMRT (https://github.com/ruta-k/uGMRT-pipeline).
 This pipeline is based on modular CASA package which can be installed in a virtual python environment. 
 The method is described in detail in the link https://casadocs.readthedocs.io/en/stable/notebooks/introduction.html#Modular-Packages.
-A short description of installing modular CASA packages as below.
+A short description of steps for installing modular CASA packages as below.
 
-Pip wheels for casatools and casatasks are available as Python 3 modules. This allows simple installation and import into standard Python environments. The casatools wheel is necessarily a binary wheel so there may be some compatibility issues for some time as we work toward making wheels available for important Python configurations.
-
-Make sure you have set up your machine with the necessary prerequisite libraries first. Then a la carte installation of desired modules (from a Linux terminal window) as follows:
 
 $: python3 -m venv myvenv
 $: source myvenv/bin/activate

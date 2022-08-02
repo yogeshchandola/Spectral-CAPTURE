@@ -6,7 +6,9 @@ A short description of steps for installing modular CASA packages as below.
 
 
 $: python3 -m venv myvenv
+
 $: source myvenv/bin/activate
+
 (myvenv) $: pip install --upgrade pip wheel
 
 Now pick whichever subset of the available CASA packages you are interested in. Package dependencies are handled automatically by pip, with the exception of casadata which must be explicitly installed and updated by the user (see External Data). The following packages are available:

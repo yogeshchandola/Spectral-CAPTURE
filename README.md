@@ -33,8 +33,7 @@ Now pick whichever subset of the available CASA packages you are interested in. 
 
 (myvenv) $: pip install casatestutils==6.5.1.23
 
-
-
-After the casa6 environment is activated, the script casascriptnew.py can be run on python. Before running the script, appropriate parameters should be set using the parameter file 'config_example.ini'. Also, because flagging is done using the AOFLAGGER (https://aoflagger.readthedocs.io/en/latest/) for certain steps, it should be installed beforehand.
+Before running the script, appropriate parameters should be set using the parameter file 'config_example.ini'. Also, because flagging is done using the AOFLAGGER (https://aoflagger.readthedocs.io/en/latest/) for certain steps, it should be installed beforehand.
+After the casa6 environment is activated, the script casascriptnew.py can be run on python. 
 
 

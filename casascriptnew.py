@@ -28,7 +28,7 @@ console.setLevel(logging.INFO)
 logging.getLogger('').addHandler(console)
 
 logging.info("#######################################################################################")
-logging.info("You are using mCAPTURE: modified CAsa Pipeline-cum-Toolkit for Upgraded GMRT data REduction.")
+logging.info("You are using Spectral-CAPTURE: modified CAsa Pipeline-cum-Toolkit for Upgraded GMRT data REduction.")
 logging.info("")
 logging.info("#######################################################################################")
 logging.info("LOGFILE = %s", logfile_name)

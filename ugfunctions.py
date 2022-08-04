@@ -536,8 +536,8 @@ def myselfcal(workdir,myfile,myref, nloops,nploops,myvalinit,mycellsize,myimages
 
     else:
         for i in range(0,nscal+1): # plan 4 P and 4AP iterations
+	    print(myfile,i)
             file= myfile[i]
-            print(file)
             if mymakedirty == True:
                 if i == 0:
                     myniter = 0 # this is to make a dirty image
